@@ -2,7 +2,7 @@
 # Latest.
 git clone https://github.com/pantyukhov/libsnark.git
 cd libsnark
-git checkout 477c9dfd07b280e42369f82f89c08416319e24ae
+# git checkout 477c9dfd07b280e42369f82f89c08416319e24ae
 git submodule init && git submodule update
 mkdir build && cd build && cmake  ..
 make
